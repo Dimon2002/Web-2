@@ -1,0 +1,55 @@
+.bg-red {
+    background-color: rgb(119, 119, 207);
+}
+
+.roundHeader {
+    border-radius: 0px 0px 40px 40px;
+}
+
+.imgRound{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card{
+    border-radius: 20px;
+    margin-top: auto;
+}
+
+.imgBig{
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    margin-top: 1%;
+}
+
+.text{
+    text-align: justify;
+}
+
+.whtext{
+    color:beige;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+    
+@media (min-aspect-ratio : 16/9) {
+#myVideo
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+    
+@media (max-aspect-ratio : 16/9) {
+    #myVideo
+    {
+        width: auto;
+        height: 100%;
+    }
+}
